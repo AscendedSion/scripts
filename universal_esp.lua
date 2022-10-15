@@ -63,7 +63,7 @@ local function update_esp()
             local position, visible = wtvp(camera, cframe.Position);
 
             esp.box.Visible = visible;
-            esp.tracer.Visible = visible;
+            esp.tracer.Visible = false;
             esp.name.Visible = visible;
             esp.distance.Visible = visible;
 
